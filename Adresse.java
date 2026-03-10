@@ -14,5 +14,9 @@ public class Adresse {
         this.strasse = strasse;
     }
 
+    public String getVollständigeAdresse() {
+        return plz + stadt + strasse + hausnummer;
+    }
+
 
 }
